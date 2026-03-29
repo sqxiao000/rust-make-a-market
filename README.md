@@ -3,29 +3,27 @@ This is a fun Market Making Probability Game for the simple simulation of market
 
 # How to Play
 
-## Getting Started
-
-1. **Clone the repository:**
+### 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/rust-make-a-market.git
    cd rust-make-a-market
    ```
 
-2. **Run the game:**
+### 2. Run the game:
    ```bash
    cargo run
    ```
 
-3. **Choose a game!**
+### 3. Choose a game!
    When prompted, select one of the available games (more to come!):
    - `coin` 
    - `dice`
    - `cards`
 
-4. **Set your bid/ask spread:**
+### 4. Set your bid/ask spread:
    Enter your bid price. Your ask price is automatically calculated based on your bid and the spread, each game has a fixed spread. This will be changed later on to have the player set their own spread, a too tight spread can be risky and a too wide spread can result in missing out on trades. 
 
-5. **Trade with rational players:**
+### 5. Trade with rational players:
    Watch as rational players trade with you based on their own expected value calculations. The goal is to make profitable trades by accurately pricing uncertainty!
 
 ## Requirements
